@@ -17,6 +17,6 @@ app.use(cookieParser())
 app.use(express.json())
 app.use(routes)
 
-//Executando servidor na porta 3333
+//Executando servidor na porta 3003
 
 app.listen(3003)

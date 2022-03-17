@@ -11,10 +11,10 @@ const routes = express.Router()
 
 routes.get('/tarefa', TarefaController.index)
 routes.get('/tarefa/:concluido', TarefaController.concluido)
-routes.get('./tarefa', TarefaController.nome)
-routes.post('/tarefa', TarefaController.cadastrar)
+routes.get('/tarefa/nome', TarefaController.nome)
+routes.post('/tarefa/criar', TarefaController.cadastrar)
 routes.delete('/tarefa/:id', TarefaController.excluir)
-routes.put('./tarefa', TarefaController.editar)
+routes.put('/tarefa/editar', TarefaController.editar)
 
 
 //Exportando
