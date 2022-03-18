@@ -11,7 +11,7 @@ const CriarTarefa = () => {
 const [formValues, setFormValues] =
 	useState({ nome: '', descricao: '', concluido: '' })
 
-// onSubmit
+// Submit
 
 const onSubmit = tarefa => {
 	console.log(tarefa)
@@ -37,5 +37,5 @@ return(
 )
 }
 
-// Export CreateStudent Component
+// Exportando componente CriarTarefa
 export default CriarTarefa
