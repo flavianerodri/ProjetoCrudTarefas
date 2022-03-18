@@ -13,7 +13,7 @@ const [formValues, setFormValues] = useState({
 	concluido: "",
 });
 	
-//onSubmit handler
+// Submit
 const onSubmit = (tarefa) => {
 	axios
 	.put(
@@ -56,5 +56,5 @@ return (
 );
 };
 
-// Exportando componente EditarTarefa
+// Exportando componente Editar Tarefa
 export default EditarTarefa;
